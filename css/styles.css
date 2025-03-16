@@ -202,7 +202,6 @@ color: black;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding: 120px 0;
 }
 
 .section-title {
@@ -230,6 +229,9 @@ color: black;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.project-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn {
@@ -299,7 +301,6 @@ color: #2E2F42;
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 0 0 4px 4px;
-    background-color: #f3f3f3;
     text-align: center;
     padding: 20px;
     width: calc((100% - 72px) / 4);
@@ -309,6 +310,40 @@ color: #2E2F42;
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
   }
+
+  .app-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.project-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+.app-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #f4f4fd);
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-item:hover .app-text {
+    transform: translateY(0%);
+}
 
   .social-list {
     list-style: none;
@@ -463,20 +498,22 @@ margin: 0 auto 24px;
   margin-bottom: 8px;
 }
 
-.app-container {
-  padding: 32px 16px;
+.app-cont {
   border: 1px solid #e7e9fc;
   border-top: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+    overflow: hidden;
 }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .section-title-pr {
