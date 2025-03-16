@@ -176,7 +176,7 @@ color: black;
 .hero-section {
     font-family: "Roboto", sans-serifs;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
     background-position: center;
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-max-width: 264px;
+max-width: 264px; 
 }
 
 .hhero {
@@ -587,7 +587,7 @@ margin: 0 auto 24px;
   .social-link:hover, .social-link:focus {
     background-color: #404bbf;
   }
-  .social-link-footer:hover, .social-link:focus {
+  .social-link-footer:hover, .social-link-footer:focus {
     background-color: #31d0aa;
   }
 
