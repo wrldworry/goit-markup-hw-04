@@ -179,9 +179,9 @@ color: black;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-position: center;
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .icon-container {
@@ -414,8 +414,8 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-max-width: 264px;
 margin-bottom: 16px;
+max-width: 264px;
 }
 
 .hhero {
@@ -570,7 +570,7 @@ margin: 0 auto 24px;
   }
   .social-list {
     display: flex;
-    gap: 16px;
+    gap: 24px;
   }
   .social-item {
     width: 40px;
@@ -587,7 +587,7 @@ margin: 0 auto 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .social-link:hover, .social-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
   }
   .social-icon {
     fill: var(--icon-color, #f4f4fd);
