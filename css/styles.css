@@ -565,6 +565,7 @@ margin: 0 auto 24px;
     letter-spacing: 0.02em;
     color: var(--white, #FFFFFF);
     margin-bottom: 16px;
+    margin-top: 0;
   }
 
   .social-list {
